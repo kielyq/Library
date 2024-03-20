@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body> 
+<div class="all">
+    <header class="header">
+        <div class="logo-header">
+            <a href="index.html" class="logo-link">
+            КФ Книжный фонд
+            </a>
+        </div>
+        <div class="list-of-header">
+            <a href="catalog.html" class="link">
+                <div>
+                    каталог
+                </div>
+            </a>
+            <a href="about.html" class="link">
+                <div>
+                    о фонде
+                </div>
+            </a>
+            <a href="mycard.html" class="link">
+                <div>
+                    моя карточка
+                </div>
+            </a>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <!--Основное-->
+    <main class="main">
+        <h1 class="catalog-title-main">
+            Каталог
+        </h1>
+        <div class="input-center">
+            <input type="text" name="" id="" class="type-here" placeholder="">
+        </div>
+        <div class="select-styles">
+        <select id="topic" name="topic" onchange="handleTopicChange()" class="topics">
+            <option value="all">Все жанры</option>
+            <option value="art_literature">Художественная литература</option>
+            <option value="modern_literature">Современная литература</option>
+            <option value="history">История</option>
+            <option value="culture">Культура</option>
+            <option value="war">Военное</option>
+            <option value="selfimp">Самосовершенствование</option>
+            <option value="science">Научное</option>
+            <option value="languages">Лингвистика</option>
+            <option value="legal">Юридическая литература</option>    
+            <option value="program">Программирование</option>    
+            <option value="poetry">Поэзия</option>    
+            <option value="horror">Ужасы</option>   
+            <option value="detective">Детективы</option>   
+            <option value="fantastic">Фантастика</option>   
+            <option value="lovely">Любовный роман</option>   
+            <option value="fairytails">Сказки</option>   
+            <option value="medicine">Медицина</option>     
+          </select>
+        </div>
+       <div class="cards">
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="selfimp">
+            <div class="card-text">
+                <p class="card-title">
+                    Эссенциализм. Путь к простоте
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author"> 
+                            Грег МакКеон
+                        </p>
+                        <p class="card-theme">
+                            Самосовершенствование
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic1">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="detective">
+            <div class="card-text">
+                <p class="card-title">
+                    Милосердие
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Рада Джонс
+                        </p>
+                        <p class="card-theme">
+                          Детективы
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            990 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic2">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="history">
+            <div class="card-text">
+                <p class="card-title">
+                    Генрих Шестой глазами Шекспира
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Маринина Александра
+                        </p>
+                        <p class="card-theme">
+                          История
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic3">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="medicine">
+            <div class="card-text">
+                <p class="card-title">
+                    Сердце хирурга
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Федор Углов
+                        </p>
+                        <p class="card-theme">
+                           Медицина
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            1500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic4">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="medicine">
+            <div class="card-text">
+                <p class="card-title">
+                    Безумная медицина
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Томас Моррис
+                        </p>
+                        <p class="card-theme">
+                           Художественная литература
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            910 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic5">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="medicine">
+            <div class="card-text">
+                <p class="card-title">
+                    Модицина
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Никита Жуков
+                        </p>
+                        <p class="card-theme">
+                           Медицина
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            1400 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic6">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="war">
+            <div class="card-text">
+                <p class="card-title">
+                    Искусство войны
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Сунь-Цзы
+                        </p>
+                        <p class="card-theme">
+                           Военное
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            5500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic7">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="war">
+            <div class="card-text">
+                <p class="card-title">
+                    Наука побеждать
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Александр Суворов 
+                        </p>
+                        <p class="card-theme">
+                           Военное
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            4500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic8">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="war">
+            <div class="card-text">
+                <p class="card-title">
+                    Стратегия непрямых действий
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Бэзил Гарт
+                        </p>
+                        <p class="card-theme">
+                           Военное
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            6500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic9">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="lovely">
+            <div class="card-text">
+                <p class="card-title">
+                    Очень любовный роман
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Элла Дерзай
+                        </p>
+                        <p class="card-theme">
+                           Любовный роман
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            100 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic10">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="art_literature">
+            <div class="card-text">
+                <p class="card-title">
+                    Пробужденная страстью
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Шэрон Кендрик
+                        </p>
+                        <p class="card-theme">
+                           Любовный роман
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            200 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic11">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+
+        <!--Карточка, карточка, карточка, карточчка, карточка-->
+        <div class="card" id="fantastic">
+            <div class="card-text">
+                <p class="card-title">
+                    Алиса в стране чудес
+                </p>
+                <div class="card-desc">
+                    <div class="author-theme">
+                        <p class="card-author">
+                            Льюис Кэрролл
+                        </p>
+                        <p class="card-theme">
+                         Фантастика
+                        </p>
+                    </div>
+                    <div class="price-order">
+                        <p class="card-price">
+                            1500 р.
+                        </p>
+                        <p class="card-order">
+                            В наличии
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-pic">
+                <div class="card-pic12">
+
+                </div>
+            <a href="#" class="add-link">
+                <p class="add">
+                    Добавить
+                </p>
+            </a>
+            </div>
+        </div>
+       </div>
+
+      
+    </main>
+
+
+
+
+
+
+
+
+
+
+        <!--Основное-->
+    <footer class="footer">
+        <div class="footer-top">
+            <p class="number-footer">
+                +7 (xxx) xx-xx-xx 
+            </p>
+            <p class="address-footer"> 
+                Эстония, Таллинн, Харьюмаа, П. Пинна 53 
+            </p>
+        </div>
+
+    </footer>
+</div>
+<script src="js.js"></script>
+</body>
+</html>

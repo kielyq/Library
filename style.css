@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    margin: 0px auto;
+    width: 100%;
+}
+.main{
+  
+}
+.logo-link{
+    color: rgb(7, 88, 76);
+    text-decoration: none;
+}
+.logo-link:hover{
+    color: rgb(7, 88, 76);
+}
+.header{
+    
+    display: flex;
+    background: rgb(153, 223, 215);
+    padding-bottom: 30px;
+}
+.logo-header{
+    padding-top: 28px;
+    margin: 0px auto;
+    color: rgb(7, 88, 76);
+font-family: Montserrat;
+font-size: 36px;    
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0px;
+
+}
+.list-of-header{
+    padding-top: 28px;
+    color: rgb(7, 88, 76);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: center;
+    margin: 0px auto;
+    margin-left: 50%;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+/*Главная страница, основная*/
+
+.main-title{
+    margin-top: 60px;
+    color: rgb(35, 116, 104);
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.main-img{
+    margin-top: 60px;
+    border-radius: 20px;
+    background-image: url(img/thebest.jpg);
+    width: 740px;
+    
+    margin: 59px auto 0px auto;
+    background-size: cover;
+    height: 600px;
+}
+.link{
+    color: rgb(35, 116, 104);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(8, 61, 53);
+    text-decoration:underline;
+}
+/*footer*/
+.footer{
+height: 77px;
+color: rgb(20, 211, 182);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    height: 6px;
+    background: linear-gradient(-10.53deg, rgb(44, 168, 151) -4.08%,rgba(10, 140, 122, 0) 120.554%);
+}
+
+.number-footer{
+    margin-top: 38px;
+    margin-left: 50px;
+}
+.address-footer{
+    margin-top: 38px;
+    margin-right: 50px;
+}
+
+
+
+/*КАТАЛОГ*/
+.catalog-title{
+    margin-top: 235px;
+    
+    color: rgb(35, 116, 104);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-between;
+    color: rgb(35, 116, 104);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 70px auto 336px auto;
+}
+
+.catalog-title-main{
+    margin-top: 15px;
+    
+    color: rgb(35, 116, 104);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.type-here{
+    box-sizing: border-box;
+border: 5px solid rgb(42, 137, 121);
+border-radius: 20px;
+width: 840px;
+height: 60px;
+color: rgb(185, 205, 202);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+text-align: center;
+}
+.input-center{
+    text-align: center;
+    margin: 10px auto 0px auto;
+}
+
+.topics{
+    color: rgb(84, 116, 111);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: center;
+/* жанр */
+width: 500px;
+box-sizing: border-box;
+border: 5px solid rgb(8, 121, 104);
+border-radius: 20px;
+
+align-items: center;
+
+
+}
+.select-styles{
+    width: 500px;
+    margin: 15px auto;
+}
+
+
+/*Карточки*/
+
+.cards{
+    margin: 25px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1850px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card{
+    margin-bottom: 20px;
+    display: flex;
+    width: 554px;
+    height: 244px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid rgb(42, 137, 121);
+    box-shadow: 1px 7px 9px 0px rgba(99, 107, 110, 0.25);
+
+}
+.card-text{
+    margin: 26px auto 0px 13px;
+}
+.card-title{
+    color: rgb(44, 105, 96);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0px;
+
+}
+.card-desc{
+    display: flex;
+    color: rgb(44, 105, 96);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    margin-top: 28px;
+}
+.author-theme{
+  
+    justify-content: space-between;
+    display: flex;  
+    flex-direction: column;
+}
+.price-order{
+    margin-left: 80px;
+ 
+    font-size: 14px;
+    justify-content: space-between;
+    display: flex;  
+    flex-direction: column;
+}
+.card-theme{
+    font-size: 14px;
+    margin-top: 40px;
+}
+.card-pic{
+margin: 13px 46px 0px 34px;
+
+}
+
+.add{
+    transition: 0.5s;
+    border-radius: 4px;
+    border: 1px solid rgb(44, 105, 96);
+    margin-top: 4px;
+    color: rgb(44, 105, 96);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+.add:hover{
+    transition: 0.5s;
+    background-color: rgba(127, 255, 212, 0.514);
+}
+.add-link{
+    text-decoration: none;
+}
+.add-link:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+/*about*/
+.about-img{
+    /* image */
+width: 692px;
+height: 309px;
+margin: 54px auto 0px auto;
+border-radius: 10px;
+background-image: url(img/qwq.jpg);
+background-size:cover;
+}
+.about-desc{
+    color: rgb(35, 116, 104);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+
+padding: 30px;
+width: 1279px;
+height: 233px;
+margin: 54px auto 0px auto;
+box-shadow: 6px 6px 35px 0px rgba(0, 0, 0, 0.25);
+background: rgb(232, 248, 246);
+}
+
+.about-second-desc{
+    display: flex;
+    width: 1000px;
+    height: 111px;
+    margin: 24px auto 49px auto;
+    box-shadow: 6px 6px 35px 0px rgba(0, 0, 0, 0.25);
+background: rgb(232, 248, 246);
+}
+
+.about-first{
+    color: rgb(35, 116, 104);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+
+    padding: 12px 0px 2px 120px;
+}
+.about-second{
+    color: rgb(35, 116, 104);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+
+   padding:12px;
+}
+
+
+/*user card*/
+
+.card-for-user{
+display: flex;
+width: 1279px;
+height: 505px;
+margin: 45px auto 150px auto;
+    border-radius: 40px;
+
+box-shadow: 6px 6px 35px 0px rgba(0, 0, 0, 0.25);
+background: rgb(246, 246, 246);
+}
+
+.add-card{
+    margin: 0px auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(94, 178, 165);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+text-align: center;
+}
+.card-text-add{
+    margin-top: 10px;
+}
+
+.pfp-img{
+width: 220px;
+height: 351px;
+margin: 77px 0px 0px 63px;
+border-radius: 20px;
+background-image: url(img/pfp.png);
+background-size: cover;
+}
+
+.text-user{
+    margin: 88px auto 0px 63px;
+    color: rgb(35, 116, 104);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.user-name{
+    margin-top: 35px;
+}
+.return-books{
+    margin-top: 80px;
+}
+.back-return-books{
+    margin-top: 15px;
+}
+.link-books{
+    text-decoration: none;
+    color: rgb(35, 116, 104);
+}
+.link-books:hover{
+    color: rgb(35, 116, 104);
+    text-decoration: underline;
+}
+
+
+/*Картинки для книг*/
+.card-pic1{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/f.webp);
+}
+.card-pic2{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/sc.webp);
+}
+.card-pic3{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/trd.webp);
+}
+.card-pic4{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/frth.jpg);
+}
+.card-pic5{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/fif.jpg);
+}
+.card-pic6{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/ssx.jpg);
+}
+.card-pic7{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/svn.jpg);
+}
+.card-pic8{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/eq.webp);
+}
+.card-pic9{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/nine.jpg);
+}.card-pic10{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/tbn.webp);
+}
+.card-pic11{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/elv.webp);
+}
+.card-pic12{
+
+    width: 140px;
+    height: 185px;
+    background-size: cover;
+    background-image: url(img/last.jpg);
+}
+/*-==============================================-*/
